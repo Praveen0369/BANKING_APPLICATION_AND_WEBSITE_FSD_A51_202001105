@@ -1,0 +1,77 @@
+/* Set font and background styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/stylish-glowing-digital-red-lines-banner_1017-23964.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  
+  /* Center the form on the page */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the headings */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the form input fields */
+  input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit and reset buttons */
+  button[type=submit], button[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Add some space between the buttons */
+  button[type=reset] {
+    margin-left: 10px;
+  }
+  
+  /* Change the button color on hover */
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the transaction fee field */
+  #transaction_fee {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Style the security code field */
+  #security_code {
+    width: 50%;
+  }
+  
