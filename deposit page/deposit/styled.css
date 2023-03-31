@@ -1,0 +1,172 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-image: url(images/23964.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .account-info {
+    margin-bottom: 20px;
+  }
+  
+  .account-info label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .account-info input[type=text] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .deposit-info label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .deposit-info select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .deposit-info textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .security-info label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .security-info input[type=password] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button[type=submit], button[type=reset] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button[type=submit]:hover, button[type=reset]:hover {
+    background-color: #3e8e41;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: grid;
+    gap:40px;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1200px;
+  }
+  .header p,.header{
+    color: #ffffff;
+    font-size: small;
+  }
+  .header ul,.header ul li,.header ul li a,header .soci a{
+    font-size: large;
+    color: white;
+    list-style: none;
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+  .header h3{
+    color: #ffffff;
+
+  }
+  .social-media, .social-media a{
+    font-size: xx-large;
+    color: #f1f1f1;
+    text-decoration: none;
+    text-align: end;
+    font-style: none;
+     padding: 10px;
+  }
+  .header-head{
+    text-align: center;
+  }
+  .logo1{ 
+    width: 50px;
+    margin:10px 0px;
+    cursor: pointer;
+    display: none;
+    padding-inline-start: 20px;
+  }
+  .log{
+    justify-content: center;
+    display: none;
+  }
+  @media screen and (min-width:620px) {
+    .logo1{
+      display: contents;
+    }
+    .log{
+      display: inline;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .social-media,.social-media a{
+      display: none;
+    }
+    .soci{
+      display: block;
+      color: aliceblue;
+      text-decoration: none;
+      font-size: large;
+    }
+    .logo1{
+      display:none;
+    }
+}
+  
