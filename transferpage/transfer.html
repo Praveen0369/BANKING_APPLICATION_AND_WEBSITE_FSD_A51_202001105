@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylet.css">
+    <title>Transfer Funds</title>
+  </head>
+  <body>
+    <h1 style="color: aliceblue;">Transfer Funds</h1>
+    <form>
+      <label for="from_account">From Account:</label>
+      <select id="from_account" name="from_account">
+        <option value="savings">Savings Account</option>
+        <option value="checking">Checking Account</option>
+      </select>
+      <br>
+      <label for="to_account">To Account:</label>
+      <input type="text" id="to_account" name="to_account">
+      <br>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" name="amount">
+      <br>
+      <label for="transaction_type">Transaction Type:</label>
+      <select id="transaction_type" name="transaction_type">
+        <option value="immediate">Immediate Transfer</option>
+        <option value="scheduled">Scheduled Transfer</option>
+      </select>
+      <br>
+      <label for="recipient_name">Recipient Name:</label>
+      <input type="text" id="recipient_name" name="recipient_name">
+      <br>
+      <label for="recipient_account">Recipient Account Number:</label>
+      <input type="text" id="recipient_account" name="recipient_account">
+      <br>
+      <label for="transfer_description">Transfer Description:</label>
+      <input type="text" id="transfer_description" name="transfer_description">
+      <br>
+      <label for="transaction_fee">Transaction Fee:</label>
+      <input type="text" id="transaction_fee" name="transaction_fee" value="$0.00" readonly>
+      <br>
+      <label for="security_code">Security Code:</label>
+      <input type="text" id="security_code" name="security_code">
+      <br>
+      <button type="submit">Submit Transfer</button>
+      <button type="reset">Reset Form</button>
+    </form>
+  </body>
+</html>
